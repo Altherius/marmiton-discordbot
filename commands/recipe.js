@@ -29,8 +29,6 @@ module.exports = class Departs extends Command {
         } else {
             const firstRecipe = recipes[0]
 
-            console.log(firstRecipe)
-
             let ingredients = ""
             firstRecipe.ingredients.forEach((ingredient) => {
                 ingredients = ingredients + ingredient + '\n'
